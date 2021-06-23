@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.30907.101
+VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeRadio", "DogeRadio\DogeRadio.csproj", "{B7313B39-D66D-4951-A5FA-5CF28F14A836}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DogeRadio", "DogeRadio\DogeRadio.csproj", "{EDD426F7-77B5-4F26-BCBB-AC193D9B4701}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B7313B39-D66D-4951-A5FA-5CF28F14A836}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B7313B39-D66D-4951-A5FA-5CF28F14A836}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B7313B39-D66D-4951-A5FA-5CF28F14A836}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B7313B39-D66D-4951-A5FA-5CF28F14A836}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD426F7-77B5-4F26-BCBB-AC193D9B4701}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD426F7-77B5-4F26-BCBB-AC193D9B4701}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD426F7-77B5-4F26-BCBB-AC193D9B4701}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD426F7-77B5-4F26-BCBB-AC193D9B4701}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {2AEDF946-5E0F-4199-B0AF-CD23AE11B7F9}
+		SolutionGuid = {A9C6EA4A-8FDB-4A88-A679-701BCDFA3CF8}
 	EndGlobalSection
 EndGlobal

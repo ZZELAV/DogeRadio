@@ -1,5 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace DogeRadio
@@ -55,40 +61,40 @@ namespace DogeRadio
         {
             for (int i = 0; i < URLs.Length / 2; i++)
             {
-                drpdwnSender.Items.Add(URLs[i, 0]);
+                cbSender.Items.Add(URLs[i, 0]);
             }
             wmp.settings.volume = 50;
         }
 
-        private void txtBxSender_Enter(object sender, EventArgs e)
+        private void tbSender_Enter(object sender, EventArgs e)
         {
-            if (txtBxSender.Text == "Eigener Sender")
+            if (tbSender.Text == "Eigener Sender")
             {
-                txtBxSender.Text = "";
-                txtBxSender.ForeColor = Color.Black;
+                tbSender.Text = "";
+                tbSender.ForeColor = Color.Black;
             }
         }
 
-        private void txtBxSender_Leave(object sender, EventArgs e)
+        private void tbSender_Leave(object sender, EventArgs e)
         {
-            if (txtBxSender.Text == "")
+            if (tbSender.Text == "")
             {
-                txtBxSender.Text = "Eigener Sender";
-                txtBxSender.ForeColor = Color.Gray;
+                tbSender.Text = "Eigener Sender";
+                tbSender.ForeColor = Color.Gray;
             }
         }
 
         private void btnAbspielen_Click(object sender, EventArgs e)
         {
-            if (txtBxSender.Text != "")
+            if (tbSender.Text.Contains("http"))
             {
-                wmp.URL = txtBxSender.Text;
+                wmp.URL = tbSender.Text;
             }
         }
 
-        private void drpdwnSender_SelectedIndexChanged(object sender, EventArgs e)
+        private void cbSender_SelectedIndexChanged(object sender, EventArgs e)
         {
-            wmp.URL = URLs[drpdwnSender.SelectedIndex, 1];
+            wmp.URL = URLs[cbSender.SelectedIndex, 1];
         }
 
         private void btnAbspielen_MouseHover(object sender, EventArgs e)
@@ -96,13 +102,13 @@ namespace DogeRadio
             btnAbspielen.BackColor = Color.FromArgb(255, 82, 0, 0);
         }
 
-        private void txtBxSender_KeyDown(object sender, KeyEventArgs e)
+        private void cbSender_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
             {
-                if (txtBxSender.Text.Contains("http"))
+                if (tbSender.Text.Contains("http"))
                 {
-                    wmp.URL = txtBxSender.Text;
+                    wmp.URL = tbSender.Text;
                 }
             }
         }
