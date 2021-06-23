@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="DogeRadio.exe" version="1.0.0.5" publicKeyToken="87345abfd562f4f5" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="symbol.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="DogeRadio" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="DogeRadio.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC-Manifestoptionen
+          Wenn Sie die Zugangsebene für das Windows-Benutzerkonto ändern möchten, ersetzen Sie den 
+          requestedExecutionLevel-Knoten durch eines der folgenden Elemente.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Löschen Sie den requestedExecutionLevel-Knoten, wenn Sie 
+         zum Gewährleisten der Abwärtskompatibilität die Datei- und Registrierungsvirtualisierung verwenden möchten.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>A3ybmhKXFxjO/SVAhk5ww0eojLVYIpFsSv5BrJfI9AY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DogeRadio.exe" size="1518528">
+      <assemblyIdentity name="DogeRadio" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>0rBOSwZwbtNQOLcpK9auzNvwV30AEV59oinShUOvN+E=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>v4gx/Yfwr2FwqQCcAGfU0C0rFoEctdlcbZDP/8eXtNo=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="DogeRadio.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="symbol.ico" size="183198">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>967FnJVIL2+eNURARMyWwZiAJfdmYeAaSAGEYo2HnqA=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=NZXT-ZZELAV\Vale" issuerKeyHash="70cb1acec3f4edced57c49d0bbd39cc593d3353e" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>8GgwXAXZJ/L51zUN306j5TDy4k256QP5n08C908Bp3U=</DigestValue></Reference></SignedInfo><SignatureValue>oTGyaC3D8pU6K2Ko/hbQSVS59y+2Y5jUXYe6nGsvNcoYw1f0I9wVikUkf750ONGZsvMGd0vraEwqCpqYX0v4nJsq22V2hJCNzRUmu6hNA6KxUPfDIGwHJrJKH9OT8GlIS704ho4YSoNR/bGikdjgZ8s1qzfI3O8f/aAka3qV/70=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>q7CCyBm+Y0qXlS2+PSFcICMYMsmjIwoMDgsDQMOD/PU1h2Vg0fG+HqvRT1YANNOJ834u6v6HSGcjQG/navUmbzQ8D3QNhuKhgWHG/AfbZGHD4RyTm8VT8rhzYnd1YID1dVXU2DzFEaHT57J1PJUQhPPyq5bZHidDjCSEYfh7Ywk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="75a7014ff7024f9ff903e9b94de2f230e5a34edf0d35d7f9f227d9055c3068f0" Description="" Url=""><as:assemblyIdentity name="DogeRadio.exe" version="1.0.0.5" publicKeyToken="87345abfd562f4f5" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=NZXT-ZZELAV\Vale</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lct906/SnMSxcp92iF0N16/3b4RP22FOBKf5VJx1eEE=</DigestValue></Reference></SignedInfo><SignatureValue>dsUV2pcxN4zbpV5tsbar4CfjSOTc2MkwTxscMcDD/Bwh83goSRc/BsB4hoDSBrLS03Xs8QtPpfJq0JWd5t+4jZtiXHYMw5E8dvw3XQX2Bdc4GV0CXzmFWp2bC6YI5F76eAnuhfV86zmfZ8yCMM/HTk7y0/0z1BqydPXj+csI5Fk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>q7CCyBm+Y0qXlS2+PSFcICMYMsmjIwoMDgsDQMOD/PU1h2Vg0fG+HqvRT1YANNOJ834u6v6HSGcjQG/navUmbzQ8D3QNhuKhgWHG/AfbZGHD4RyTm8VT8rhzYnd1YID1dVXU2DzFEaHT57J1PJUQhPPyq5bZHidDjCSEYfh7Ywk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB2TCCAUKgAwIBAgIQFPSuJErdF5xJ8s7EN2N9TDANBgkqhkiG9w0BAQsFADArMSkwJwYDVQQDHiAATgBaAFgAVAAtAFoAWgBFAEwAQQBWAFwAVgBhAGwAZTAeFw0yMTA2MjIxNzEyNDVaFw0yMjA2MjIyMzEyNDVaMCsxKTAnBgNVBAMeIABOAFoAWABUAC0AWgBaAEUATABBAFYAXABWAGEAbABlMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCrsILIGb5jSpeVLb49IVwgIxgyyaMjCgwOCwNAw4P89TWHZWDR8b4eq9FPVgA004nzfi7q/odIZyNAb+dq9SZvNDwPdA2G4qGBYcb8B9tkYcPhHJObxVPyuHNid3VggPV1VdTYPMURodPnsnU8lRCE8/KrltkeJ0OMJIRh+HtjCQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBACDshxdAN5W0QcG2zIUBoVC7MxcPySTrDcBESCdSKJbB+CbHNmEZFT5GOvqokiH5m44apu4IfaZ496Ik66yakZKnfxFqRgLI1TiFgpHBAD+LEuhG7Dd/j4PdxytgdoHL+fFRC0MGb0H0amxyevC3Ov/TUrbospB3wkyJ7q/LC12m</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
