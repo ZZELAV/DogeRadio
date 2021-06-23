@@ -13,3 +13,7 @@ C:\Users\Vale\Downloads\DogeRadio\DogeRadio\DogeRadio\bin\Debug\Interop.WMPLib.d
 C:\Users\Vale\Downloads\DogeRadio\DogeRadio\DogeRadio\bin\Debug\AxInterop.WMPLib.dll
 C:\Users\Vale\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\DogeRadio.exe
 C:\Users\Vale\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\DogeRadio.pdb
+C:\Users\Vale\Downloads\DogeRadio\DogeRadio\DogeRadio\bin\Debug\DogeRadio.exe.manifest
+C:\Users\Vale\Downloads\DogeRadio\DogeRadio\DogeRadio\bin\Debug\DogeRadio.application
+C:\Users\Vale\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\DogeRadio.exe.manifest
+C:\Users\Vale\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\DogeRadio.application
