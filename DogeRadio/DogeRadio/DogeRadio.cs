@@ -89,12 +89,14 @@ namespace DogeRadio
             if (tbSender.Text.Contains("http"))
             {
                 wmp.URL = tbSender.Text;
+                pbDogeGif.Enabled = true;
             }
         }
 
         private void cbSender_SelectedIndexChanged(object sender, EventArgs e)
         {
             wmp.URL = URLs[cbSender.SelectedIndex, 1];
+            pbDogeGif.Enabled = true;
         }
 
         private void btnAbspielen_MouseHover(object sender, EventArgs e)
@@ -109,6 +111,7 @@ namespace DogeRadio
                 if (tbSender.Text.Contains("http"))
                 {
                     wmp.URL = tbSender.Text;
+                    pbDogeGif.Enabled = true;
                 }
             }
         }

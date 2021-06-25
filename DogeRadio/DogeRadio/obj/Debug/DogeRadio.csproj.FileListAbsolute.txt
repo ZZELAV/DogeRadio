@@ -17,3 +17,22 @@ C:\Users\Vale\Downloads\DogeRadio\DogeRadio\DogeRadio\bin\Debug\DogeRadio.exe.ma
 C:\Users\Vale\Downloads\DogeRadio\DogeRadio\DogeRadio\bin\Debug\DogeRadio.application
 C:\Users\Vale\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\DogeRadio.exe.manifest
 C:\Users\Vale\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\DogeRadio.application
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\bin\Debug\DogeRadio.exe.config
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\bin\Debug\DogeRadio.exe.manifest
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\bin\Debug\DogeRadio.application
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\bin\Debug\DogeRadio.exe
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\bin\Debug\DogeRadio.pdb
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\bin\Debug\Interop.WMPLib.dll
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\DogeRadio.csprojAssemblyReference.cache
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\Interop.WMPLib.dll
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\DogeRadio.csproj.ResolveComReference.cache
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\DogeRadio.DogeRadio.resources
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\DogeRadio.Properties.Resources.resources
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\DogeRadio.csproj.GenerateResource.cache
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\DogeRadio.csproj.CoreCompileInputs.cache
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\DogeRadio.exe.manifest
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\DogeRadio.application
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\DogeRadio.exe
+C:\Users\Valentino Panico\Downloads\DogeRadio\DogeRadio\DogeRadio\obj\Debug\DogeRadio.pdb

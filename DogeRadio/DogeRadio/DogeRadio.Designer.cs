@@ -32,11 +32,11 @@ namespace DogeRadio
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(DogeRadio));
             this.btnAbspielen = new System.Windows.Forms.Button();
             this.wmp = new AxWMPLib.AxWindowsMediaPlayer();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pbDogeGif = new System.Windows.Forms.PictureBox();
             this.cbSender = new System.Windows.Forms.ComboBox();
             this.tbSender = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.wmp)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbDogeGif)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAbspielen
@@ -45,9 +45,10 @@ namespace DogeRadio
             this.btnAbspielen.FlatAppearance.BorderSize = 0;
             this.btnAbspielen.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnAbspielen.ForeColor = System.Drawing.Color.White;
-            this.btnAbspielen.Location = new System.Drawing.Point(12, 65);
+            this.btnAbspielen.Location = new System.Drawing.Point(18, 100);
+            this.btnAbspielen.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAbspielen.Name = "btnAbspielen";
-            this.btnAbspielen.Size = new System.Drawing.Size(258, 23);
+            this.btnAbspielen.Size = new System.Drawing.Size(387, 35);
             this.btnAbspielen.TabIndex = 0;
             this.btnAbspielen.Text = "Abspielen";
             this.btnAbspielen.UseVisualStyleBackColor = false;
@@ -58,27 +59,31 @@ namespace DogeRadio
             // 
             this.wmp.Enabled = true;
             this.wmp.Location = new System.Drawing.Point(12, 94);
+            this.wmp.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.wmp.Name = "wmp";
             this.wmp.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("wmp.OcxState")));
             this.wmp.Size = new System.Drawing.Size(258, 161);
             this.wmp.TabIndex = 1;
             // 
-            // pictureBox1
+            // pbDogeGif
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(276, 12);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(252, 243);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
+            this.pbDogeGif.Enabled = false;
+            this.pbDogeGif.Image = ((System.Drawing.Image)(resources.GetObject("pbDogeGif.Image")));
+            this.pbDogeGif.Location = new System.Drawing.Point(414, 18);
+            this.pbDogeGif.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.pbDogeGif.Name = "pbDogeGif";
+            this.pbDogeGif.Size = new System.Drawing.Size(378, 374);
+            this.pbDogeGif.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbDogeGif.TabIndex = 2;
+            this.pbDogeGif.TabStop = false;
             // 
             // cbSender
             // 
             this.cbSender.FormattingEnabled = true;
-            this.cbSender.Location = new System.Drawing.Point(12, 12);
+            this.cbSender.Location = new System.Drawing.Point(18, 18);
+            this.cbSender.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.cbSender.Name = "cbSender";
-            this.cbSender.Size = new System.Drawing.Size(258, 21);
+            this.cbSender.Size = new System.Drawing.Size(385, 28);
             this.cbSender.TabIndex = 3;
             this.cbSender.Text = "Sender wählen";
             this.cbSender.SelectedIndexChanged += new System.EventHandler(this.cbSender_SelectedIndexChanged);
@@ -87,9 +92,10 @@ namespace DogeRadio
             // tbSender
             // 
             this.tbSender.ForeColor = System.Drawing.Color.Gray;
-            this.tbSender.Location = new System.Drawing.Point(12, 39);
+            this.tbSender.Location = new System.Drawing.Point(18, 60);
+            this.tbSender.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.tbSender.Name = "tbSender";
-            this.tbSender.Size = new System.Drawing.Size(258, 20);
+            this.tbSender.Size = new System.Drawing.Size(385, 26);
             this.tbSender.TabIndex = 4;
             this.tbSender.Text = "Eigener Sender";
             this.tbSender.Enter += new System.EventHandler(this.tbSender_Enter);
@@ -97,22 +103,23 @@ namespace DogeRadio
             // 
             // DogeRadio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.ClientSize = new System.Drawing.Size(540, 267);
+            this.ClientSize = new System.Drawing.Size(810, 411);
             this.Controls.Add(this.tbSender);
             this.Controls.Add(this.cbSender);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.pbDogeGif);
             this.Controls.Add(this.wmp);
             this.Controls.Add(this.btnAbspielen);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "DogeRadio";
             this.Text = "Doge Radio";
             this.Load += new System.EventHandler(this.DogeRadio_Load);
             ((System.ComponentModel.ISupportInitialize)(this.wmp)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbDogeGif)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -122,7 +129,7 @@ namespace DogeRadio
 
         private System.Windows.Forms.Button btnAbspielen;
         private AxWMPLib.AxWindowsMediaPlayer wmp;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pbDogeGif;
         private System.Windows.Forms.ComboBox cbSender;
         private System.Windows.Forms.TextBox tbSender;
     }
