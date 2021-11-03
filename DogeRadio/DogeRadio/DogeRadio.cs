@@ -21,6 +21,7 @@ namespace DogeRadio
         {
             // A
             { "Antenne Bayern - DE", "https://stream.antenne.de/antenne/stream/mp3" },
+            { "Antenne Bayern Musik - DE", "https://s10-webradio.antenne.de/nur-die-musik" },
             { "Antenne Vorarlberg - AT", "http://webradio.antennevorarlberg.at/live" },
             // B
             // C
